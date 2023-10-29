@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- Màu nền của BottomNavigationView -->
+    <corners android:topLeftRadius="16dp" android:topRightRadius="16dp" />  <!-- Điều này đặt bán kính bo góc là 16dp, bạn có thể điều chỉnh giá trị này theo ý muốn. -->
+</shape>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!-- checkable single là để có thể kiểm tra bật hoặc tắt -->
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+        <item android:id="@+id/nav_favor"
+            android:title="Setting"
+            android:icon="@drawable/ic_baseline_settings_24"/>
+        <item android:id="@+id/nav_history"
+            android:title="Logout"
+            android:icon="@drawable/ic_baseline_logout_24"/>
+
+
+    </group>
+
+    <item android:title="Center">
+        <menu>
+            <item android:id="@+id/nav_profile"
+                android:title="Phone"
+                android:icon="@drawable/ic_baseline_phone_24"/>
+
+            <item android:id="@+id/nav_pass"
+                android:title="Help"
+                android:icon="@drawable/ic_baseline_help_outline_24"/>
+        </menu>
+    </item>
+</menu>

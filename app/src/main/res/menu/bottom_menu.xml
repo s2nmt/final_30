@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/img_1"
+        android:layout_gravity="center"/>
+    <item
+        android:id="@+id/shorts"
+        android:title="Rooms"
+        android:icon="@drawable/img_2"
+        android:layout_gravity="center"/>
+    <item
+        android:id="@+id/fab"
+        android:title="@null"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:layout_gravity="center"/>
+    <item
+        android:id="@+id/voice"
+        android:title="Notification"
+        android:icon="@drawable/img_3"
+        android:layout_gravity="center"/>
+    <item
+        android:id="@+id/setting"
+        android:title="Profile"
+        android:icon="@drawable/img_4" />
+</menu>
